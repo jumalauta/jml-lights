@@ -1,0 +1,14 @@
+{
+  "name": "jml-lights",
+  "version": "1.0.0",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  }
+}
