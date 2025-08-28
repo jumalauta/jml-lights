@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.14.3</Version>
@@ -13,7 +13,7 @@
     <Input Plugin="MIDI" UID="IAC Driver" Line="0" Profile="Generic MIDI notes">
      <PluginParameters MIDISendNoteOff="true" mode="Note Velocity"/>
     </Input>
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: BG014T9T)" Line="0"/>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -1742,7 +1742,7 @@
    <FxItem ID="1" XPos="4438.67" YPos="1609.64"/>
    <FxItem ID="2" XPos="390.532" YPos="1875.89"/>
    <FxItem ID="3" XPos="4440.88" YPos="1936.07"/>
-   <FxItem ID="4" XPos="354.151" YPos="1229.96"/>
+   <FxItem ID="4" XPos="345.06" YPos="1229.96"/>
    <FxItem ID="5" XPos="4402.6" YPos="1254.27"/>
    <FxItem ID="6" XPos="969.512" YPos="908.537"/>
    <FxItem ID="7" XPos="2981.71" YPos="896.341"/>
@@ -1765,7 +1765,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="0" Width="340" Height="715"/>
+    <WindowState Visible="False" X="0" Y="0" Width="340" Height="715"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1773,7 +1773,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <SpeedDial Caption="Duration" ID="4">
-     <WindowState Visible="True" X="0" Y="40" Width="340" Height="220"/>
+     <WindowState Visible="False" X="0" Y="40" Width="340" Height="220"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2063,7 +2063,7 @@
      <Function FadeIn="0" FadeOut="0" Duration="6">344</Function>
     </SpeedDial>
     <Button Caption="Blinder" ID="6" Icon="">
-     <WindowState Visible="True" X="55" Y="365" Width="195" Height="70"/>
+     <WindowState Visible="False" X="55" Y="365" Width="195" Height="70"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2077,7 +2077,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Strobe" ID="7" Icon="">
-     <WindowState Visible="True" X="55" Y="440" Width="195" Height="70"/>
+     <WindowState Visible="False" X="55" Y="440" Width="195" Height="70"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2091,7 +2091,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Stop all" ID="271" Icon="">
-     <WindowState Visible="True" X="55" Y="610" Width="195" Height="70"/>
+     <WindowState Visible="False" X="55" Y="610" Width="195" Height="70"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2105,7 +2105,7 @@
     </Button>
    </Frame>
    <Button Caption="Bright light" ID="0" Icon="">
-    <WindowState Visible="True" X="55" Y="290" Width="195" Height="70"/>
+    <WindowState Visible="False" X="55" Y="290" Width="195" Height="70"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2126,7 +2126,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="340" Y="0" Width="820" Height="910"/>
+    <WindowState Visible="False" X="340" Y="0" Width="820" Height="910"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -5177,7 +5177,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Wave in" ID="233" Page="7" Icon="">
-     <WindowState Visible="True" X="10" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="10" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5190,7 +5190,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Fade out" ID="234" Page="7" Icon="">
-     <WindowState Visible="True" X="110" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="110" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5203,7 +5203,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Fade in" ID="235" Page="7" Icon="">
-     <WindowState Visible="True" X="210" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="210" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5216,7 +5216,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Wave out" ID="236" Page="7" Icon="">
-     <WindowState Visible="True" X="310" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="310" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5229,7 +5229,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Left/Right" ID="237" Page="7" Icon="">
-     <WindowState Visible="True" X="410" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="410" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5242,7 +5242,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Alternate" ID="238" Page="7" Icon="">
-     <WindowState Visible="True" X="510" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="510" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5255,7 +5255,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Fade in/out" ID="239" Page="7" Icon="">
-     <WindowState Visible="True" X="610" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="610" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5268,7 +5268,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Objects Tunnel" ID="240" Page="7" Icon="">
-     <WindowState Visible="True" X="710" Y="45" Width="100" Height="100"/>
+     <WindowState Visible="False" X="710" Y="45" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5281,7 +5281,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Wave in" ID="241" Page="7" Icon="">
-     <WindowState Visible="True" X="10" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="10" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5294,7 +5294,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Fade out" ID="242" Page="7" Icon="">
-     <WindowState Visible="True" X="110" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="110" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5307,7 +5307,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Fade in" ID="243" Page="7" Icon="">
-     <WindowState Visible="True" X="210" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="210" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5320,7 +5320,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Wave out" ID="244" Page="7" Icon="">
-     <WindowState Visible="True" X="310" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="310" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5333,7 +5333,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Left/Right" ID="245" Page="7" Icon="">
-     <WindowState Visible="True" X="410" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="410" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5346,7 +5346,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Alternate" ID="246" Page="7" Icon="">
-     <WindowState Visible="True" X="510" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="510" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5359,7 +5359,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Fade in/out" ID="247" Page="7" Icon="">
-     <WindowState Visible="True" X="610" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="610" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5372,7 +5372,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Fill Center Tunnel" ID="248" Page="7" Icon="">
-     <WindowState Visible="True" X="710" Y="145" Width="100" Height="100"/>
+     <WindowState Visible="False" X="710" Y="145" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5385,7 +5385,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Wave in" ID="249" Page="7" Icon="">
-     <WindowState Visible="True" X="10" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="10" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5398,7 +5398,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Fade out" ID="250" Page="7" Icon="">
-     <WindowState Visible="True" X="110" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="110" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5411,7 +5411,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Fade in" ID="251" Page="7" Icon="">
-     <WindowState Visible="True" X="210" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="210" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5424,7 +5424,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Wave out" ID="252" Page="7" Icon="">
-     <WindowState Visible="True" X="310" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="310" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5437,7 +5437,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Left/Right" ID="253" Page="7" Icon="">
-     <WindowState Visible="True" X="410" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="410" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5450,7 +5450,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Alternate" ID="254" Page="7" Icon="">
-     <WindowState Visible="True" X="510" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="510" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5463,7 +5463,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Fade in/out" ID="255" Page="7" Icon="">
-     <WindowState Visible="True" X="610" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="610" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5476,7 +5476,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Noise Tunnel" ID="256" Page="7" Icon="">
-     <WindowState Visible="True" X="710" Y="245" Width="100" Height="100"/>
+     <WindowState Visible="False" X="710" Y="245" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5489,7 +5489,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Wave in" ID="257" Page="7" Icon="">
-     <WindowState Visible="True" X="10" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="10" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5502,7 +5502,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Fade out" ID="258" Page="7" Icon="">
-     <WindowState Visible="True" X="110" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="110" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5515,7 +5515,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Fade in" ID="259" Page="7" Icon="">
-     <WindowState Visible="True" X="210" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="210" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5528,7 +5528,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Wave out" ID="260" Page="7" Icon="">
-     <WindowState Visible="True" X="310" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="310" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5541,7 +5541,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Left/Right" ID="261" Page="7" Icon="">
-     <WindowState Visible="True" X="410" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="410" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5554,7 +5554,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Alternate" ID="262" Page="7" Icon="">
-     <WindowState Visible="True" X="510" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="510" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5567,7 +5567,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Fade in/out" ID="263" Page="7" Icon="">
-     <WindowState Visible="True" X="610" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="610" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5580,7 +5580,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Tunnel Tunnel" ID="264" Page="7" Icon="">
-     <WindowState Visible="True" X="710" Y="345" Width="100" Height="100"/>
+     <WindowState Visible="False" X="710" Y="345" Width="100" Height="100"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5601,7 +5601,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1160" Y="0" Width="520" Height="610"/>
+    <WindowState Visible="False" X="1160" Y="0" Width="520" Height="610"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
